@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.navbar {
+  background-color: black;
+  color: white;
+  padding: 20px 0;
+  position: relative;
+  z-index: 1000;
+}
+
+.logo {
+  float: left;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.logo .highlight {
+  color: #ff8c42;
+}
+
+.nav-links {
+  float: right;
+}
+
+.nav-links ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.nav-links ul li a {
+  color: white;
+}
+
+.nav-links ul li a:hover {
+  color: #ff8c42;
+}
+
+.hero-section {
+  background-image: url('../img/download.jfif');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  position: relative;
+  padding-top: 150px;
+}
+
+.hero-section::before {
+  content: '';
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.hero-section .container {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-content {
+  float: left;
+  width: 50%;
+  padding-right: 30px;
+}
+
+.hero-content h1 {
+  margin-bottom: 10px;
+}
+
+.hero-content h2 {
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+
+  margin-bottom: 30px;
+}
+
+.btn-download {
+  display: inline-block;
+  padding: 12px 30px;
+  border: 2px solid white;
+  color: white;
+}
+
+.btn-download:hover {
+  background: white;
+  color: black;
+}
+
+.signup-form-container {
+  float: right;
+  width: 350px;
+  background-color: white;
+  border-radius: 5px;
+  color: black;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.form-header {
+  background-color: #f7f7f7;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
+
+.form-header h3 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.form-header .highlight {
+  color: #ff8c42;
+}
+
+.signup-form {
+  padding: 20px;
+}
+
+.signup-form input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.btn-get-started {
+  width: 100%;
+  padding: 12px;
+  background-color: #ff8c42;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 0 0 5px 5px;
+}
+
+.btn-get-started:hover {
+  background-color: #e67e37;
+}

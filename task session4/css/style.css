@@ -1,0 +1,373 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #fff;
+  color: #333;
+}
+hr{
+    width: 20%;
+    color:orange
+}
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.navbar {
+  background-color: #111;
+  padding: 20px 0%;
+  color: #fff;
+  position:fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.highlight{
+    color: #ff6600;
+}
+
+
+
+.logo {
+  float: left;
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+}
+
+.nav-links {
+  float: right;
+}
+
+.nav-links ul {
+  list-style: none;
+}
+
+.nav-links ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+.nav-links ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+.hero-section {
+  background: url("../imag/Midtown-Manhattan-Empire-State-Building-New-York.webp") ;
+  height: 100vh;
+  position: relative;
+  color: white;
+}
+
+.hero-content-container {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+}
+
+.hero-content {
+  width: 50%;
+  float: left;
+  padding: 20px;
+}
+
+.signup-form-container {
+  width: 35%;
+  float: right;
+  background: white;
+  color: #333;
+  padding: 30px;
+  border-radius: 4px;
+}
+
+.btn {
+  display: inline-block;
+  color: white;
+  border:solid;
+  padding: 10px 25px;
+  text-decoration: none;
+  margin-top: 15px;
+  border-radius: 4px;
+}
+
+.btn-get-started{
+    width: 100%;
+    background-color: #ff6600;
+    color: #f7f7f7;
+    padding: 2%;
+    border: none;
+}
+
+.form-input {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: none;
+  border-bottom: solid rgb(206, 206, 206);
+}
+.social-section {
+  background-color: #eee;
+  padding: 5px 0;
+}
+.social-text{
+    float: left;
+    width: 50%;
+    font-size: x-small;
+}
+.social-icons i {
+  font-size: 24px;
+  margin: 0 12px;
+  color: #999;
+  float: left;
+  margin-top: 1%;
+  padding-right: 3%;
+}
+
+.tabs-section{
+    background-color: #e1dfdf;
+}
+.tabs-container {
+  padding: 60px 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+.tabs-list {
+  width: 10%;
+  float: left;
+  text-align: center;
+}
+.tab1{
+    background: #ff6600;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+}
+.tab-menu{
+  background: #333;
+  color: white;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.tabs-content {
+  width: 40%;
+  float: left;
+  padding: 0%  10%;
+  text-align: left;
+}
+.btn-download{
+    width: 40%;
+    background-color: #ff6600;
+    color: #f7f7f7;
+    padding: 6%;
+    border: none;
+    border-radius: 5%;
+
+}
+.reflex{
+    float: right;
+}
+
+.tabs-image {
+
+  display:block;
+}
+.tabs--image {
+
+  display:block;
+  transform: scaleY(-1);
+  opacity: 0.3;
+  filter: blur(2px);
+  margin-top: -5px;
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,0.5), transparent);
+  -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,0.5), transparent);
+
+}
+
+.tabs-image img {
+  width: 100%;
+}
+
+.features-container {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.icon{
+    border:solid orangered;
+    border-radius: 50%;
+    padding: 1%;
+}
+.features-image {
+  width: 50%;
+  float: left;
+  padding: 0 20px;
+}
+
+.features-content {
+  width: 45%;
+  float: right;
+}
+
+.feature-box {
+  margin-top: 30px;
+  overflow: hidden;
+}
+
+.feature-box i {
+  float: left;
+  font-size: 24px;
+  color: #ff6600;
+  margin-right: 15px;
+}
+
+h1 {
+      margin-bottom: 10px;
+      padding-top: 2%;
+    }
+.pricing-section{
+    text-align: center;
+    background-color: #dedada;
+
+}
+    p.subtitle {
+      color: #777;
+      margin-bottom: 40px;
+    }
+
+    .pricing-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      max-width: 1200px;
+      padding-bottom: 2%;
+      padding-left: 2%;
+    }
+
+    .plan {
+      background-color: white;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      width: 300px;
+      overflow: hidden;
+    }
+
+    .plan-header {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center;
+      border-bottom: solid rgb(227, 227, 227);
+    }
+
+    .price {
+      font-size: 40px;
+      padding: 20px 0 5px;
+      background-color: #333;
+      color: white;
+      text-align: center;
+    }
+
+    .monthly {
+      color: #e0dada;
+      border-bottom: solid orange 6px;
+      background-color: #333;
+      color: white;
+      text-align: center
+    }
+
+    .popular {
+      background-color: orange;
+      color: white;
+      padding-bottom: 3%;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .features {
+      list-style: none;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .features li {
+      padding: 10px 0;
+      border-top: 1px solid #eee;
+    }
+
+    .features li:first-child {
+      border-top: none;
+    }
+
+.testimonials-section {
+  padding: 60px 0;
+  background-color: #fff;
+  text-align: center;
+}
+
+.testimonial {
+  width: 30%;
+  float: left;
+  padding: 20px;
+  background: #f2f2f2;
+  margin-right: 5%;
+  border-radius: 5px;
+}
+
+.testimonial:last-child {
+  margin-right: 0;
+}
+
+.contact-section {
+  padding: 60px 0;
+  background: #fff;
+  text-align: center;
+  background-color: #e7e5e5;
+}
+
+.contact-form {
+  width: 60%;
+  margin: auto;
+}
+.btn-send{
+    background-color: #ff6600;
+    color: #f7f7f7;
+    padding: 1%;
+    border: none;
+    border-radius: 5%;
+}
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+}
+
+.footer-section {
+  background: #111;
+  padding: 20px 0;
+  text-align: center;
+  color: white;
+}
+
+.footer-icons i {
+  font-size: 20px;
+  margin: 0 10px;
+  color: white;
+}
