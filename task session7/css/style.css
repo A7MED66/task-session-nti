@@ -1,0 +1,36 @@
+
+
+.cardd {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  text-align: center;
+}
+
+.card {
+  width: 30%;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  transition: all 0.3s ease;
+
+}
+
+.image-wrapper {
+  width: 100%;
+  overflow: hidden; 
+  border-bottom: 2px solid #eee;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.image-wrapper:hover img {
+  transform: scale(1.05) rotate(4deg);
+}
+
