@@ -1,0 +1,29 @@
+.sq{
+    display: block;
+}
+.carousel-indicators {
+  position: absolute;
+  top: 50%;
+  right: 0; 
+  transform: translateY(-50%);
+  flex-direction: column !important;
+  align-items: flex-end; 
+  margin: 0;
+  gap: 8px;
+  padding-right: 10px; /
+}
+
+
+
+  .carousel-indicators .btn,
+  .carousel-indicators .sq {
+    width: 8px;
+    height: 8px;
+    border-radius: 0 !important; 
+    border: 1px solid #fff;
+    background-color: #ccc;
+  }
+
+  .list:hover{
+    color: blue;
+  }
