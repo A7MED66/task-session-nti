@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shop | Coffee & Bakery</title>
+  <link rel="stylesheet" href="style.css"> <!-- رابط ملف CSS -->
+  <style>
+    body {
+      background-color: #f5f1ec;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #3e2f2f;
+    }
+
+    header {
+      background-color: #4b2e2e;
+      padding: 20px;
+      color: white;
+      text-align: center;
+    }
+
+    .container {
+      padding: 40px;
+    }
+
+    .product-item {
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      margin-bottom: 30px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .product-item img {
+      width: 150px;
+      height: 150px;
+      border-radius: 12px;
+      object-fit: cover;
+    }
+
+    .product-item .info {
+      flex-grow: 1;
+    }
+
+    .product-item h3 {
+      margin: 0 0 10px;
+    }
+
+    .price {
+      font-size: 1.2em;
+      color: #4b2e2e;
+      font-weight: bold;
+    }
+
+    .order-btn {
+      background-color: #4b2e2e;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .order-btn:hover {
+      background-color: #6a3a2e;
+    }
+
+    .section-title {
+      font-size: 2em;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .shop-header {
+      margin-bottom: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Shop Our Products</h1>
+  <p>Choose your favorite coffee and bakery items</p>
+</header>
+
+<div class="container">
+  <!-- Coffee Section -->
+  <section class="shop-header">
+    <h2 class="section-title">Coffee</h2>
+  </section>
+
+  <div class="product-item">
+    <img src="espresso.jpg" alt="Espresso">
+    <div class="info">
+      <h3>Espresso</h3>
+      <p>A strong, bold shot of coffee to give you that extra boost.</p>
+      <p class="price">$2.00</p>
+      <button class="order-btn">Add to Cart</button>
+    </div>
+  </div>
+
+  <div class="product-item">
+    <img src="latte.jpg" alt="Latte">
+    <div class="info">
+      <h3>Latte</h3>
+      <p>Smooth espresso with steamed milk and a light foam topping.</p>
+      <p class="price">$3.50</p>
+      <button class="order-btn">Add to Cart</button>
+    </div>
+  </div>
+
+  <div class="product-item">
+    <img src="arabic-coffee.jpg" alt="Arabic Coffee">
+    <div class="info">
+      <h3>Arabic Coffee</h3>
+      <p>Spiced coffee with cardamom, served the traditional way.</p>
+      <p class="price">$3.00</p>
+      <button class="order-btn">Add to Cart</button>
+    </div>
+  </div>
+
+  <!-- Bakery Section -->
+  <section class="shop-header">
+    <h2 class="section-title">Bakery</h2>
+  </section>
+
+  <div class="product-item">
+    <img src="croissant.jpg" alt="Croissant">
+    <div class="info">
+      <h3>Butter Croissant</h3>
+      <p>Golden, flaky, and buttery croissant—perfect with coffee.</p>
+      <p class="price">$2.50</p>
+      <button class="order-btn">Add to Cart</button>
+    </div>
+  </div>
+
+  <div class="product-item">
+    <img src="muffin.jpg" alt="Chocolate Muffin">
+    <div class="info">
+      <h3>Chocolate Muffin</h3>
+      <p>Rich and moist muffin with chunks of chocolate.</p>
+      <p class="price">$3.00</p>
+      <button class="order-btn">Add to Cart</button>
+    </div>
+  </div>
+
+  <div class="product-item">
+    <img src="cheesecake.jpg" alt="Cheesecake">
+    <div class="info">
+      <h3>Classic Cheesecake</h3>
+      <p>Creamy cheesecake with a buttery graham crust.</p>
+      <p class="price">$4.50</p>
+      <button class="order-btn">Add to Cart</button>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

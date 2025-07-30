@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Coffee | Coffee Shop</title>
+  <style>
+    body {
+      background-color: #f5f1ec;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #3e2f2f;
+    }
+
+    header {
+      background-color: #4b2e2e;
+      padding: 20px;
+      color: white;
+      text-align: center;
+    }
+
+    .container {
+      padding: 40px;
+    }
+
+    .coffee-item {
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      margin-bottom: 30px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .coffee-item img {
+      width: 150px;
+      height: 150px;
+      border-radius: 12px;
+      object-fit: cover;
+    }
+
+    .coffee-item .info {
+      flex-grow: 1;
+    }
+
+    .coffee-item h3 {
+      margin: 0 0 10px;
+    }
+
+    .order-btn {
+      background-color: #4b2e2e;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .order-btn:hover {
+      background-color: #6a3a2e;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Coffee Menu</h1>
+  <p>Your perfect cup awaits!</p>
+</header>
+
+<div class="container">
+  <div class="coffee-item">
+    <img src="espresso.jpg" alt="Espresso">
+    <div class="info">
+      <h3>Espresso</h3>
+      <p>Strong and bold, served in a small cup to wake you up instantly.</p>
+      <p><strong>Price:</strong> $2.00</p>
+      <button class="order-btn">Order Now</button>
+    </div>
+  </div>
+
+  <div class="coffee-item">
+    <img src="latte.jpg" alt="Latte">
+    <div class="info">
+      <h3>Latte</h3>
+      <p>Smooth steamed milk blended with espresso, topped with light foam.</p>
+      <p><strong>Price:</strong> $3.50</p>
+      <button class="order-btn">Order Now</button>
+    </div>
+  </div>
+
+  <div class="coffee-item">
+    <img src="arabic-coffee.jpg" alt="Arabic Coffee">
+    <div class="info">
+      <h3>Arabic Coffee</h3>
+      <p>Light and spiced with cardamom, served in traditional style.</p>
+      <p><strong>Price:</strong> $3.00</p>
+      <button class="order-btn">Order Now</button>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+body {
+    color: #ffffff;
+    margin: 0;
+    background-image: url('coffee.webp');
+    background-attachment: fixed;
+  }
+
+
+
+  .index {
+    position: absolute;
+    z-index: 1;
+    padding: 5px;
+  }
+  h2,nav{
+      display: inline-block;
+  }
+
+  nav span {
+    padding: 20px;
+  }
+  .fir{
+      margin: 10px 200px;
+  }
+
+  .mid {
+    margin: 80px 100px;
+  }
+
+  .order {
+    display: inline-block;
+    padding: 2px 30px;
+    background-color: #f8fbfe;
+    color: rgb(0, 0, 0);
+    border-radius: 70px;
+  }
+
+  .caption {
+    font-size: xx-large;
+  }
+  a{
+    text-decoration: none;
+    color: #f8fbfe;
+  }
+  div p a{
+    color: black;
+  }
+  .coffee{
+    margin-top: 600px;
+    margin-left: 20px;
+  }

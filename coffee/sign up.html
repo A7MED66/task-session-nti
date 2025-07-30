@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sign Up | Coffee Shop</title>
+  <link rel="stylesheet" href="style.css"> <!-- رابط ملف CSS -->
+  <style>
+    body {
+      background-color: #f5f1ec;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #3e2f2f;
+    }
+
+    header {
+      background-color: #4b2e2e;
+      padding: 20px;
+      color: white;
+      text-align: center;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 80vh;
+    }
+
+    .signup-box {
+      background-color: #fff;
+      padding: 30px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      border-radius: 12px;
+      width: 300px;
+      text-align: center;
+    }
+
+    .signup-box h2 {
+      margin-bottom: 20px;
+    }
+
+    .input-field {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 1em;
+    }
+
+    .signup-btn {
+      background-color: #4b2e2e;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      width: 100%;
+      font-size: 1.1em;
+      transition: background-color 0.3s;
+    }
+
+    .signup-btn:hover {
+      background-color: #6a3a2e;
+    }
+
+    .login-link {
+      margin-top: 15px;
+      display: block;
+      color: #4b2e2e;
+      text-decoration: none;
+    }
+    
+    .login-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Create a New Account</h1>
+  <p>Join the Coffee Shop family!</p>
+</header>
+
+<div class="container">
+  <div class="signup-box">
+    <h2>Sign Up</h2>
+    <form action="dashboard.html" method="post"> <!-- رابط إلى صفحة الحساب بعد التسجيل -->
+      <input type="email" class="input-field" placeholder="Email" required>
+      <input type="password" class="input-field" placeholder="Password" required>
+      <input type="password" class="input-field" placeholder="Confirm Password" required>
+      <button type="submit" class="signup-btn">Sign Up</button>
+    </form>
+    <a href="login.html" class="login-link">Already have an account? Login</a>
+  </div>
+</div>
+
+</body>
+</html>

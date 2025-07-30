@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bakery | Coffee Shop</title>
+  <link rel="stylesheet" href="style.css"> <!-- رابط ملف CSS -->
+  <style>
+    body {
+      background-color: #f9f3ee;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #3e2f2f;
+    }
+
+    header {
+      background-color: #6f4e37;
+      padding: 20px;
+      color: white;
+      text-align: center;
+    }
+
+    .container {
+      padding: 40px;
+    }
+
+    .bakery-item {
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      margin-bottom: 30px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .bakery-item img {
+      width: 150px;
+      height: 150px;
+      border-radius: 12px;
+      object-fit: cover;
+    }
+
+    .bakery-item .info {
+      flex-grow: 1;
+    }
+
+    .bakery-item h3 {
+      margin: 0 0 10px;
+    }
+
+    .order-btn {
+      background-color: #6f4e37;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .order-btn:hover {
+      background-color: #8b5e3c;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Bakery Delights</h1>
+  <p>Freshly baked just for you!</p>
+</header>
+
+<div class="container">
+  <div class="bakery-item">
+    <img src="croissant.jpg" alt="Croissant">
+    <div class="info">
+      <h3>Butter Croissant</h3>
+      <p>Flaky, golden, and buttery—perfect with your morning coffee.</p>
+      <p><strong>Price:</strong> $2.50</p>
+      <button class="order-btn">Order Now</button>
+    </div>
+  </div>
+
+  <div class="bakery-item">
+    <img src="muffin.jpg" alt="Muffin">
+    <div class="info">
+      <h3>Chocolate Muffin</h3>
+      <p>Rich, moist chocolate muffin topped with chocolate chips.</p>
+      <p><strong>Price:</strong> $3.00</p>
+      <button class="order-btn">Order Now</button>
+    </div>
+  </div>
+
+  <div class="bakery-item">
+    <img src="cheesecake.jpg" alt="Cheesecake">
+    <div class="info">
+      <h3>Classic Cheesecake</h3>
+      <p>Creamy cheesecake with a buttery graham cracker crust.</p>
+      <p><strong>Price:</strong> $4.50</p>
+      <button class="order-btn">Order Now</button>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
